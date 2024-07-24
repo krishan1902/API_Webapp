@@ -9,8 +9,8 @@ async function generate(query, event){
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'cb5c4db86cmsh2d70097e9d529dcp1099eajsn5bafeb6fa442',
-		    'X-RapidAPI-Host': 'real-time-image-search.p.rapidapi.com'
+            'X-RapidAPI-Key': 'rapidKey',
+		    'X-RapidAPI-Host': 'rapidHost'
         }
     };
     const response = await fetch(url, options)
